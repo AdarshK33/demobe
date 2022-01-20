@@ -12,5 +12,3 @@ To run the application please run the command in termial:- npm run nodemon index
 Please open the URL in browser:- http://localhost:5000/
 
 please check the API in your system through postman.
-
-![image](https://user-images.githubusercontent.com/85481639/121135089-c5b7df00-c851-11eb-9b1e-1da0fee01e42.png)
