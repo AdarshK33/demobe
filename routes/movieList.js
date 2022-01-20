@@ -47,7 +47,7 @@ router.post('/movie', async function(req, res) {
 router.get('/movie', async function(req, res) {
 
     try {
-         const movie_result = await Movies.find()
+         const movie_result = await Movies.find().sort({$natural:-1}).limit(5)
            if (movie_result) {
             return res.send({
                 status: "success",
