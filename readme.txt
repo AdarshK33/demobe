@@ -9,7 +9,7 @@ Please go to folder(./) and run the below command in termial:- npm install
 
 To run the application please run the command in termial:- npm run nodemon index.js
 
-Please open the URL in browser:- http://localhost:3000/
+Please open the URL in browser:- http://localhost:5000/
 
 please check the API in your system through postman.
 
