@@ -14,11 +14,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-require('./db/conn')//db connection
-//routes 
-app.use(require('./routes/movieList')); //Movie List
+// require('./db/conn')//db connection
+// //routes 
+// app.use(require('./routes/movieList')); //Movie List
 
-//server run On
+// //server run On
 app.listen(port, () => {
     console.log(`My Demo app listening at http://localhost:${port}`)
 })
