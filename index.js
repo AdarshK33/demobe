@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-app.get('/', function(req, res){
+app.get('/hello', function(req, res){
     res.send("Hello world!");
  });
  
