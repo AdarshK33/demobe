@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 // //routes 
 // app.use(require('./routes/movieList')); //Movie List
 
-// //server run On
+// //server run O
 app.listen(port, () => {
     console.log(`My Demo app listening at http://localhost:${port}`)
 })
